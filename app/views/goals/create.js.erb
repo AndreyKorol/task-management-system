@@ -1,0 +1,6 @@
+<% if @goal.errors.any? %>
+  alert("<%= j @goal.errors.full_messages.join('; ') %>")
+<% else %>
+  $("<%= j render @goal %>").appendTo('table.task-table');
+  $('#goal_name').val('')
+<% end %>

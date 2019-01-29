@@ -1,0 +1,11 @@
+development: &default
+  adapter: postgresql
+  encoding: unicode
+  database: task_development
+  pool: 5
+  username: <%= ENV['USER'] %>
+  host: /var/run/postgresql
+
+test:
+  <<: *default
+  database: task_test

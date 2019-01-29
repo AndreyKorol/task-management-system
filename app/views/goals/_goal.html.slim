@@ -1,0 +1,4 @@
+tr id="item_#{goal.id}" class="table-active"
+  td = goal.name
+  td.check-box
+    input class="checkbox" type="checkbox" data-remote="true" data-url="/goals/#{goal.id}" data-params="complete=#{goal.complete}" data-method="put"

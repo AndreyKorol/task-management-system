@@ -1,0 +1,4 @@
+= simple_form_for Goal.new, remote: true do |f|
+  .input-group.mb-3
+    =f.input_field :name, label: false, class: 'form-control text-input'
+    =f.submit 'Add task', class: 'btn btn-task'

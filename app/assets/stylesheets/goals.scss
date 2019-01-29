@@ -1,0 +1,41 @@
+// Place all the styles related to the Goals controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.withline {
+  text-decoration: line-through
+}
+
+td.check-box {
+  text-align: right;
+}
+
+.ui-sortable-helper {
+    display: table;
+}
+
+.checkbox {
+  height: 18px;
+  width: 18px;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+.task-table th, .task-table td {
+  width: 100%;
+  padding: 0.6rem;
+  vertical-align: top;
+  border-top: 1px solid white;
+}
+
+.text-input {
+    margin-right: 15px;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.btn-task {
+  background-color: rgba(0, 0, 0, 0.075) !important;
+  border-color: #adb5bd !important;
+}
