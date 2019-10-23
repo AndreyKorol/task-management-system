@@ -15,7 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 gem 'pg', '~> 0.18.4'
 gem 'slim-rails'
-gem 'bootstrap', '~> 4.2.1'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.14.5'
 gem 'simple_form'
